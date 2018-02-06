@@ -18,10 +18,13 @@
     <nav>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="intro-tab" data-toggle="tab" href="#intro" role="tab" aria-controls="home" aria-selected="true">Introduction</a>
+                <a class="nav-link" id="intro-tab" data-toggle="tab" href="#intro" role="tab" aria-controls="home" aria-selected="false">Introduction</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="slider-tab" data-toggle="tab" href="#slider" role="tab" aria-controls="profile" aria-selected="false">Slider</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="media-tab" data-toggle="tab" href="#media" role="tab" aria-controls="profile" aria-selected="false">Catalogue Photo</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
@@ -48,17 +51,81 @@
 
             </section>
         </div>
-        <div class="tab-pane fade" id="slider" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="tab-pane fade" id="slider" role="tabpanel" aria-labelledby="slider-tab">
             <section>
                 <h2>CHANGEMENT DES PHOTOS DU SLIDER</h2>
                 <p>
-                        Afin de changer les photos du slider présent sur la page d’acceuil du site, il faut tout d’abord vous rendre dans l’onglet <span><i>Meta Slider</i></span> disponible dans le menu de gauche
+                        Afin de changer les photos du slider présent sur la page d’acceuil du site, il faut tout d’abord vous rendre dans l’onglet <span><i>Smart Slider</i></span> disponible dans le menu de gauche
+                </p>
+                <div id="slider_img">
+                    <img src="./img/slider_img.png" alt="slider_img">
+                </div>
+                <p>
+                    Vous arrivez donc sur la page de modification du slider de l’accueil, vous voyez donc les différents sliders disponibles:
+                </p>
+                <div id="new_slider">
+                    <img src="./img/new_slider.png" alt="new_slider">
+                </div>
+                <p>Cliquez alors sur: <span><i>Main Slider - Free Full-width</i></span> pour accéder à la page de modicication du slider de la page d'accueil.</p>
+                <div id="modif_slider">
+                    <img src="./img/modif_slider.png" alt="modif_slider">
+                </div>
+                <p>
+                    Pour changer de photo, il vous suffit de cliquer sur l’une d’elles et de  choisir la nouvelle photo que vous voulez ajouter. Vous pouvez choisir parmi celles déjà ajoutées dans votre site ou alors en télécharger des nouvelles sur l’onglet téléverser des fichiers. 
                 </p>
                 <p>
-
+                    Vous avez la possibilité d’ajouter une photo à celles déjà présentes, Il suffit d’appuyer sur ajouter une diapositive en haut de la liste des photos ( voir Capture ci-dessus ) et d’ajouter une image
+                    P.S: il n’est pas nécessaire de mettre une légende et une URL aux images, puisque que seules les images en elles mêmes seront affichées.
+                </p>
+                <p>Depuis cette oage, vous avez également la possibilité de modifier l'ensemble des paramètres du slider.
                 </p>
             </section>
         </div>
+        <div class="tab-pane fade" id="media" role="tabpanel" aria-labelledby="media-tab">
+            <section>
+                <h2>CATALOGUE DE PHOTO</h2>
+                <h3>AJOUT D’UNE NOUVELLE PHOTO</h3>
+                <p>Pour ajouter une nouvelle photo au catalogue, rendez-vous sur l’onglet <span><i>produits</i></span> sur le menu de gauche et cliquer sur <span><i>Ajouter produit</i></span>.</p>
+
+                <div id="menu_produits">
+                            <img src="./img/menu_produits.png" alt="menu_produits">
+                </div>
+                <p>Vous arriverez donc sur cette page :</p>
+                <div id="add_product">
+                            <img src="./img/add_product.png" alt="add_product">
+                </div>
+                <p></p>
+                <p></p>
+                <p>Inscrivez-y les informations relatives à la photo que vous voulez ajouter ( titre, description)</p>
+                <p>Ensuite, plus bas, vous verrez une section <span><i>Données produit</i></span>. (ci-dessous)</p>
+                <div id="product_data_1">
+                            <img src="./img/product_data_1.png" alt="product_data_1">
+                </div>
+                <p>Dans le menu déroulant, au lieu de produit simple, sélectionnez <span><i>produit variable</i></span>, le visuel de la section va alors changer : </p>
+                <div id="product_data_2">
+                            <img src="./img/product_data_2.png" alt="product_data_2">
+                </div>
+                <p>Cochez l’option <span><i>vendre individuellement</i></span>. Ensuite sélectionnez l’onglet <span><i>Attributs</i></span> dans le menu :</p>
+                <div id="product_data_3">
+                            <img src="./img/product_data_3.png" alt="product_data_3">
+                </div>
+                <p>Sélectionnez <span><i>Format</i></span> dans le menu déroulant et appuyez sur <span><i>Ajouter</i></span>.</p>
+                <div id="product_data_4">
+                            <img src="./img/product_data_4.png" alt="product_data_4">
+                </div>
+                <p>Ensuite, cliquez sur <span><i>Tout sélectionner</i></span>, les différents formats de photo s’ajoute alors dans le champ <span><i>Valeurs</i></span>, puis cocher l’option <span><i>utilisé pour les variations</i></span> et enfin cliquer sur <span><i>enregistrer les attributs</i></span>.</p>
+                <p>Pour résumer, nous venons de créer différents “sous-produits” pour cette photo, ainsi, selon le format choisi par l’utilisateur, le prix s’adaptera.</p>
+                <p>Maintenant, sélectionnez l’onglet <span><i>Variations</i></span>. Dans celui-ci, vous allez y rentrer les différents tarifs selon l’attribut Format.</p>
+                <div id="product_data_5">
+                            <img src="./img/product_data_5.png" alt="product_data_5">
+                </div>
+                <p>Dans le menu déroulant <span><i>Ajouter une variation</i></span>, sélectionnez <span><i>Créer les variations pour tous les attributs</i></span>. Et cliquez sur <span><i>Aller</i></span>.</p>
+            </section>
+        </div>
+
+
+
+
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
