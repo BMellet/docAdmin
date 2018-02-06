@@ -1,14 +1,18 @@
+h1{
+    text-align: center!important;
+}
 section{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    text-align: center;
+    text-align: center!important;
     justify-content: center;
 
 }
 
 section h2{
-    width: 100%;
+    width: 100%!important;
+    text-align: center!important;
 }
 section p{
     width: 100%;
@@ -25,6 +29,7 @@ section p span{
     width: 70%;
     height: auto;
 }
+<<<<<<< HEAD
 
 /* PRODUIT */
 
@@ -40,4 +45,87 @@ section p span{
 #produit-text{
     padding-left: 200px;
     padding-right: 200px;
+=======
+#slider_img{
+    width: 60%;
+    height: auto;
+}
+#slider_img img{
+    width: 30%;
+    height: auto;
+}
+#new_slider{
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
+#new_slider img{
+    width: 100%;
+    height: auto;
+}
+#modif_slider{
+    width: 60%;
+    height: 615px;
+    overflow: hidden;
+}
+#modif_slider img{
+    width: 100%;
+    height: auto;
+}
+#menu_produits{
+    width: 60%;
+    height: 300px;
+}
+#menu_produits img{
+    width: 30%;
+    height: auto;
+}
+#add_product{
+    width: 60%;
+    height: 300px;
+}
+#add_product img{
+    width: 100%;
+    height: auto;
+}
+#product_data_1{
+    width: 60%;
+    height: 300px;
+}
+#product_data_1 img{
+    width: 100%;
+    height: auto;
+}
+#product_data_2{
+    width: 60%;
+    height: 300px;
+}
+#product_data_2 img{
+    width: 100%;
+    height: auto;
+}
+#product_data_3{
+    width: 60%;
+    height: 300px;
+}
+#product_data_3 img{
+    width: 100%;
+    height: auto;
+}
+#product_data_4{
+    width: 60%;
+    height: 300px;
+}
+#product_data_4 img{
+    width: 100%;
+    height: auto;
+}
+#product_data_5{
+    width: 60%;
+    height: 300px;
+}
+#product_data_5 img{
+    width: 100%;
+    height: auto;
+>>>>>>> 334592b317debe02aa708092d01b3dc48370054d
 }
