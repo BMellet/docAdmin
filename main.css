@@ -25,3 +25,19 @@ section p span{
     width: 70%;
     height: auto;
 }
+
+/* PRODUIT */
+
+#prduits{
+    width: 60%;
+    height: 300px;
+}
+#produits img{
+    width: 70%;
+    height: auto;
+}
+
+#produit-text{
+    padding-left: 200px;
+    padding-right: 200px;
+}
