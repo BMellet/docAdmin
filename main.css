@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+section h2{
+    width: 100%;
+}
+section p{
+    width: 100%;
+    text-align: center;
+}
+section p span{
+    background-color:rgba(238, 255, 0, 0.7);
+}
+#tableau_de_bord{
+    width: 60%;
+    height: 300px;
+}
+#tableau_de_bord img{
+    width: 70%;
+    height: auto;
+}
