@@ -7,9 +7,7 @@ section{
     width: 100%;
     text-align: center!important;
     justify-content: center;
-
 }
-
 section h2{
     width: 100%!important;
     text-align: center!important;
@@ -29,7 +27,6 @@ section p span{
     width: 70%;
     height: auto;
 }
-<<<<<<< HEAD
 
 /* PRODUIT */
 
@@ -41,11 +38,10 @@ section p span{
     width: 70%;
     height: auto;
 }
-
 #produit-text{
     padding-left: 200px;
     padding-right: 200px;
-=======
+}
 #slider_img{
     width: 60%;
     height: auto;
@@ -101,7 +97,7 @@ section p span{
     height: 300px;
 }
 #product_data_2 img{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #product_data_3{
@@ -109,7 +105,7 @@ section p span{
     height: 300px;
 }
 #product_data_3 img{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #product_data_4{
@@ -117,7 +113,7 @@ section p span{
     height: 300px;
 }
 #product_data_4 img{
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 #product_data_5{
@@ -125,7 +121,14 @@ section p span{
     height: 300px;
 }
 #product_data_5 img{
+    width: 70%;
+    height: auto;
+}
+#contact_img{
+    width: 60%;
+    height: auto;
+}
+#contact_img img{
     width: 100%;
     height: auto;
->>>>>>> 334592b317debe02aa708092d01b3dc48370054d
 }
