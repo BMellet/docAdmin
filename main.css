@@ -29,14 +29,13 @@ section p span{
     width: 70%;
     height: auto;
 }
-<<<<<<< HEAD
 
 /* PRODUIT */
 
-#prduits{
+/*#produits{
     width: 60%;
     height: 300px;
-}
+}*/
 #produits img{
     width: 70%;
     height: auto;
@@ -45,7 +44,21 @@ section p span{
 #produit-text{
     padding-left: 200px;
     padding-right: 200px;
-=======
+}    
+/* Evenement */
+
+#evenement img{
+    width: 70%;
+    height: auto;
+}
+
+#evenement-text{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*---------------------------------------------------------------------*/    
+
 #slider_img{
     width: 60%;
     height: auto;
@@ -127,5 +140,5 @@ section p span{
 #product_data_5 img{
     width: 100%;
     height: auto;
->>>>>>> 334592b317debe02aa708092d01b3dc48370054d
+
 }
